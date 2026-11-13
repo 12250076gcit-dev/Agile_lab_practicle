@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,700" />
+  <title>E-Pharmacist</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav nav--tours"><a class="nav__el" href="/">All News</a></nav>
+    <div class="header__logo"><img src="./img/logo.png" alt="epharmacists logo" /></div>
+  </header>
+  <content>
+    <main class="main">
+      <div class="login-form">
+        <h2 class="heading-secondary ma-bt-lg">Log into your account</h2>
+        <form class="form">
+          <div class="form__group">
+            <label class="form__label" for="email">Email address</label>
+            <input class="form__input" id="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form__group ma-bt-md">
+            <label class="form__label" for="password">Password</label>
+            <input class="form__input" id="password" type="password" placeholder="••••••••" required minlength="8" />
+          </div>
+          <div class="form__group">
+            <button class="btn btn--green">Login</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </content>
+  <footer class="footer">
+    <div class="footer__logo">
+      <img src="./img/logo.png" alt="epharmacist logo" />
+      <p>Agile Software Management System</p>
+    </div>
+    <p class="footer__copyright">&copy; E-Pharmacist, Autumn Semester 2022!</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+<script type="module" src="./js/login.js"></script>
+</body>
+</html>

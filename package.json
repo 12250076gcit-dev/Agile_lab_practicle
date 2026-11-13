@@ -1,0 +1,32 @@
+{
+  "name": "agile",
+  "version": "1.0.1",
+  "description": "i ensure that the medicines prescribed to patients are suitable and advise patients about medicines, including how to take them, what reactions may occur, and answer patients' questions.",
+  "homepage": "https://gitlab.com/csc103492807/agile#readme",
+  "bugs": {
+    "url": "https://gitlab.com/csc103492807/agile/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/csc103492807/agile.git"
+  },
+  "license": "ISC",
+  "author": "Phuntsho Nima",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.7.0",
+    "mongoose": "^9.10.4",
+    "validator": "^13.15.35"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
